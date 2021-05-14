@@ -1,15 +1,3 @@
-// ---------------------------------------------------------------*- Java -*-
-// File: ./examples/src/java/Facility.java
-// --------------------------------------------------------------------------
-// Licensed Materials - Property of IBM
-//
-// 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5725-A06 5725-A29
-// Copyright IBM Corporation 1990, 2020. All Rights Reserved.
-//
-// Note to U.S. Government Users Restricted Rights:
-// Use, duplication or disclosure restricted by GSA ADP Schedule
-// Contract with IBM Corp.
-// --------------------------------------------------------------------------
 
 /* ------------------------------------------------------------
 
