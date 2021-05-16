@@ -1,0 +1,54 @@
+// --------------------------------------------------------------------------
+// IBM ILOG CP Optimizer model dump file
+// Effective workers: 8
+// --------------------------------------------------------------------------
+
+// ------ Internal data: ----------------------------------------------------
+
+internals {
+  version(20.1.0.0);
+  architecture("x64_windows_msvc14/stat_mda", 64);
+}
+
+// ------ Integer variables: ------------------------------------------------
+
+#line 11 "CPOFileFormat.java"
+Belgium = intVar(0..3);
+#line 12
+Denmark = intVar(0..3);
+#line 13
+France = intVar(0..3);
+#line 14
+Germany = intVar(0..3);
+#line 15
+Luxembourg = intVar(0..3);
+#line 16
+Netherlands = intVar(0..3);
+
+// ------ Constraints: ------------------------------------------------------
+
+#line 18
+Belgium != France;
+#line 19
+Belgium != Germany;
+#line 20
+Belgium != Luxembourg;
+#line 21
+Belgium != Netherlands;
+#line 22
+Germany != Denmark;
+#line 23
+France != Germany;
+#line 24
+France != Luxembourg;
+#line 25
+Germany != Luxembourg;
+#line 26
+Germany != Netherlands;
+
+
+// ------ Internal data: ----------------------------------------------------
+
+internals {
+  ids(0, 9, 1, 3, 5, 7, 2, 4, 6, 8, 10..14);
+}
